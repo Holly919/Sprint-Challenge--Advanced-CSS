@@ -1,1 +1,45 @@
 // Navigation code here
+.navigation {
+    
+    .setup-flex(column,center);
+     align-items: center;
+     width: 100%; 
+     background-color: @nav-bg;
+     padding-top: 1%;
+     border-bottom: 2px solid @sea-shell;
+ 
+     h1 {
+         font-size: 4rem;
+     
+     nav {
+         .setup-flex(row,space-between);
+         width: 65%;
+         padding-top: 10px;
+         padding-bottom: 10px;
+        
+         @media @phone {
+             width: 80%;
+             padding-bottom: 5px;
+ 
+             a {
+                 font-size: 1.8rem;
+                 color: black;
+                 text-decoration: none;
+             }
+             a:hover {
+                 text-decoration: underline;
+             
+             .top-image {
+                 border-radius: 2px;
+                 @media @phone {
+                 width: 100%;
+                 margin: auto;
+                 padding: auto
+             }    
+         }
+     }
+ 
+ }
+ }
+ }
+ }
