@@ -1,7 +1,6 @@
 // Navigation code here
 .navigation {
-    
-    .setup-flex(column,center);
+     .setup-flex(column,center);
      align-items: center;
      width: 100%; 
      background-color: @nav-bg;
@@ -10,9 +9,10 @@
  
      h1 {
          font-size: 4rem;
+     }
      
      nav {
-         .setup-flex(row,space-between);
+        .setup-flex(row,space-evenly);
          width: 65%;
          padding-top: 10px;
          padding-bottom: 10px;
@@ -20,6 +20,7 @@
          @media @phone {
              width: 80%;
              padding-bottom: 5px;
+         }
  
              a {
                  font-size: 1.8rem;
@@ -28,18 +29,20 @@
              }
              a:hover {
                  text-decoration: underline;
+             }
+            }
+        }
              
              .top-image {
-                 border-radius: 2px;
+                 border-radius: 6px;
                  @media @phone {
                  width: 100%;
                  margin: auto;
                  padding: auto
              }    
-         }
-     }
+    
+ 
+ 
  
  }
- }
- }
- }
+ 

@@ -178,33 +178,33 @@ p {
 .navigation h1 {
   font-size: 4rem;
 }
-.navigation h1 nav {
+.navigation nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 65%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 @media (max-width: 500px) {
-  .navigation h1 nav {
+  .navigation nav {
     width: 80%;
     padding-bottom: 5px;
   }
-  .navigation h1 nav a {
-    font-size: 1.8rem;
-    color: black;
-    text-decoration: none;
-  }
-  .navigation h1 nav a:hover {
-    text-decoration: underline;
-  }
-  .navigation h1 nav a:hover .top-image {
-    border-radius: 2px;
-  }
 }
-@media (max-width: 500px) and (max-width: 500px) {
-  .navigation h1 nav a:hover .top-image {
+.navigation nav a {
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
+}
+.navigation nav a:hover {
+  text-decoration: underline;
+}
+.top-image {
+  border-radius: 6px;
+}
+@media (max-width: 500px) {
+  .top-image {
     width: 100%;
     margin: auto;
     padding: auto;
